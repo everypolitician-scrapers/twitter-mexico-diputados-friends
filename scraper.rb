@@ -19,7 +19,7 @@ end
 # follows members of the Mexican chamber of deputies
 # https://twitter.com/Mx_Diputados/following
 
-twitter.friends('gov', 'Mx_Diputados').each do |person|
+twitter.friends('Mx_Diputados').each do |person|
   data = {
     id: person.id,
     name: person.name,
